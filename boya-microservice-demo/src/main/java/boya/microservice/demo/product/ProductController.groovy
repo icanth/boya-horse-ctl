@@ -19,7 +19,7 @@ public class ProductController implements Serializable {
     ProductService productService
 
     @RequestMapping(value = "/getproductsbyname", method = RequestMethod.GET, produces = "application/json")
-    def getProductsByName(@RequestParam String name) {
+    def getProductsByName(@RequestParam("name") String name) {
         return [
                 "code"    : 200,
                 "products": productService.findProductsByName(name)

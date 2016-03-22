@@ -1,0 +1,17 @@
+boya/microservice/demo/config/DatabaseConfig.class
+boya/microservice/demo/health/HelloWorldController.class
+boya/microservice/demo/KubernetesConfig.class
+boya/microservice/demo/WebXml.class
+boya/microservice/demo/health/AppEngineLifecycleController.class
+boya/microservice/demo/ExecutionEnvironment.class
+boya/microservice/demo/product/dao/ProductDao.class
+boya/microservice/demo/GAEConfig.class
+boya/microservice/demo/health/HelloWorldResponse.class
+boya/microservice/demo/Application.class
+boya/microservice/demo/api/dto/Price.class
+boya/microservice/demo/api/dto/Product.class
+boya/microservice/demo/api/ProductService.class
+boya/microservice/demo/DockerConfig.class
+boya/microservice/demo/product/ProductController.class
+boya/microservice/demo/product/ProductServiceImpl.class
+boya/microservice/demo/SessionReplicationConfig.class

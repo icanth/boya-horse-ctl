@@ -162,12 +162,73 @@ http://www.devx.com/enterprise/api-design-basics-for-micro-service-oriented-arch
 
 http://www.slideshare.net/kimjclark/microservices-where-do-they-fit-within-a-rapidly-evolving-integration-architecture?next_slideshow=1
 
+
+Which system to choose? There are currently several key contenders to choose from, ZooKeeper, Consul, Etcd, Eureka and RollYourOwn
+http://www.simplicityitself.io/getting/started/with/microservices/2015/06/10/service-discovery-overview.html
+
+Netflix OSS, curator 1311, 1yearago
+https://github.com/Netflix/curator
+
+consul, 5900, 10daysago
+https://github.com/hashicorp/consul
+
+ETCD, 9000, adayago
+https://github.com/coreos/etcd
+
+EUREKA, 1700, amouthago
+https://github.com/Netflix/eureka.git
+
+https://dzone.com/articles/service-discovery-in-a-microservices-architecture
+
+Spring Cloud project
+
+http://blog.loli.io/2016/02/21/spring-cloud-netflix-01/
+
+https://jmnarloch.wordpress.com/2015/10/14/spring-cloud-feign-oauth2-authentication/
+
+
 # Generate A Project
+
 spring-boot CLI
 
+http://ember-cli.com/user-guide/
+
+https://github.com/kolorobot/openshift-diy-spring-boot-sample
 
 
 gradle build
 gradle bootRun
+
+# Docker+Kubernetes
+
+
+# TESTING
+
+40.1 Test scope dependencies
+If you use the spring-boot-starter-test ‘Starter POM’ (in the test scope), you will find the following provided libraries:
+
+Spring Test — integration test support for Spring applications.
+JUnit — The de-facto standard for unit testing Java applications.
+Hamcrest — A library of matcher objects (also known as constraints or predicates) allowing assertThat style JUnit assertions.
+Mockito — A Java mocking framework.
+These are common libraries that we generally find useful when writing tests. You are free to add additional test dependencies of your own if these don’t suit your needs.
+
+
+# web层和service层必须分开。
+
+1、必须方便java service之间以interface jar相互调用。
+
+2、internal service与internet service隔离。
+
+3、数据集合的服务化。
+
+
+
+
+
+
+
+
+
 
 
